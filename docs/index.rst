@@ -126,7 +126,7 @@ Beispiel-code
      - `Bauhaus <https://www.bauhaus.info/kleinteilemagazine-sichtlagerkaesten/wisent-organizer-3-68/p/20319856>`_
      - 7,95 €
    * - Magnet 10x2mm
-     - `Amazon <https://www.amazon.de/dp/B06X977K8L/ref=psdc_340675011_t2_B00PACHAM4>`
+     - `Amazon <https://www.amazon.de/dp/B06X977K8L/ref=psdc_340675011_t2_B00PACHAM4>`_
      - 0,20 €
    * - Diverse Widerstände und Kondensatoren
      - 
