@@ -2,7 +2,7 @@ Micropython Tutorial for esp32
 ==============================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Inhaltsverzeichnis:
 
    license
@@ -18,7 +18,8 @@ Diese Dokumentation richtet sich an
 Wie ist dies Tutorial entstanden?
 Im Netz finden sich fast keine deutschsprachigen Anleitungen zu Micropython. Nachdem  ich mich intensiv mit dem esp8266 und dem Nachfolger esp32 auseinandergesetzt habe, viele Blogs und englischsprachige Tutorials gelesen und die Vor- und Nachteile gegenüber dem erprobten Arduino abgewägt habe, bin ich zu der Entscheidung gelangt, dass endlich ein deutschsprachiges Tutorial für den Schulunterricht oder das Selbststudium her muss.
 
-Wie ist der Aufbau dieses Kurses?
+.. note::
+    Wie ist der Aufbau dieses Kurses?
 
 #. Hardware (IOT Box)
 #. Software (Firmware, Treiber, Bibliotheken, Tools)
@@ -47,7 +48,3 @@ Beispiel-code
        time.sleep(1)
        led_rot.low()
        time.sleep(1)
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
