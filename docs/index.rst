@@ -48,3 +48,17 @@ Beispiel-code
        time.sleep(1)
        led_rot.low()
        time.sleep(1)
+
+.. list-table:: Title
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - Was
+     - Wo
+     - Wie viel
+   * - ESP32
+     - AliExpress
+     - 7,68 €
+   * - Steckplatine groß
+     - AliExpress
+     - 1,95 €
