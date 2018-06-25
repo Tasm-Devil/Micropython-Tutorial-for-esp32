@@ -11,7 +11,7 @@ Vorwort
 -------
 
 .. warning::
-    Achtung: Diese Dokumentation befindet sich im Aufbau.
+    Diese Dokumentation befindet sich im Aufbau.
 
 Bevor es los geht...
 Diese Dokumentation richtet sich an 
@@ -19,9 +19,10 @@ Wie ist dies Tutorial entstanden?
 Im Netz finden sich fast keine deutschsprachigen Anleitungen zu Micropython. Nachdem  ich mich intensiv mit dem esp8266 und dem Nachfolger esp32 auseinandergesetzt habe, viele Blogs und englischsprachige Tutorials gelesen und die Vor- und Nachteile gegenüber dem erprobten Arduino abgewägt habe, bin ich zu der Entscheidung gelangt, dass endlich ein deutschsprachiges Tutorial für den Schulunterricht oder das Selbststudium her muss.
 
 Wie ist der Aufbau dieses Kurses?
-1. Hardware (IOT Box)
-2. Software (Firmware, Treiber, Bibliotheken, Tools)
-3. Dieses Tutorial und die Referenz
+
+#. Hardware (IOT Box)
+#. Software (Firmware, Treiber, Bibliotheken, Tools)
+#. Dieses Tutorial und die Referenz
 
 .. code-block:: console
 
