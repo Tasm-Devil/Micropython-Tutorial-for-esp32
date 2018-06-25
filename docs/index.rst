@@ -50,15 +50,15 @@ Beispiel-code
        time.sleep(1)
 
 .. list-table:: Title
-   :widths: 25 25 50
+   :widths: 50 30 20
    :header-rows: 1
 
    * - Was
      - Wo
      - Wie viel
    * - ESP32
-     - AliExpress
-     - 7,68 €
+     - `AliExpress <https://www.aliexpress.com/item/ESP32-ESP-32-ESP32S-ESP-32S-CP2102-Wireless-WiFi-Bluetooth-Development-Board-Micro-USB-Dual-Core/32867696371.html>`_
+     - 4,57 €
    * - Steckplatine groß
-     - AliExpress
+     - `AliExpress <https://www.aliexpress.com/item/Transparent-830-Tie-points-Solderless-Plug-in-Prototype-Breadboard-PCB-Experiment-Test-Circuit-Board-Kit-for/32731413507.html>`
      - 1,95 €
