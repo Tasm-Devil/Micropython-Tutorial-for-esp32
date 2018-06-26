@@ -6,6 +6,7 @@ Ein Micropython Tutorial für den esp32-Mikrocontroller
    :caption: Inhaltsverzeichnis:
 
    Vorbereitungen
+   ErsteSchritte
    Kaufberatung
    Lizenz
 

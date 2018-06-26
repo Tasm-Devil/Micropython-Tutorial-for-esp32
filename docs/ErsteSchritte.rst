@@ -1,0 +1,16 @@
+Beispiel-code
+
+.. code-block:: py
+   :linenos:
+
+   import machine
+   import time
+   led_rot=machine.Pin(15, machine.Pin.OUT)
+   led_blau=machine.Pin(14, machine.Pin.OUT)
+   led_gruen=machine.Pin(12, machine.Pin.OUT)
+
+   for x in range (3):
+       led_rot.high()
+       time.sleep(1)
+       led_rot.low()
+       time.sleep(1)

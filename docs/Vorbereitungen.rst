@@ -7,11 +7,11 @@ Bevor es mit dem Programmieren los gehen kann, sind ein paar Vorarbeiten zu erle
 Software installieren
 ---------------------
 
-Auf wenigsten einem Computer muss zunächst das Programm **esptool** installiert werden. Damit lässt sich die Firmware auf den Mikrocontroller kopieren. Man sagt zu diesem Vorgang auch *flashen*. Am einfachsten ist es, Sie führen die drei folgenden Befehle auf jedem Computer aus.
+Auf einem Computer muss zunächst das Programm **esptool** installiert werden. Damit lässt sich die Firmware auf den Mikrocontroller kopieren. Man sagt zu diesem Vorgang auch *flashen*. Am einfachsten ist es, Sie führen die drei folgenden Befehle auf jedem Computer aus.
 
 .. note::
    
-   Vergessen Sie nicht **MeinBenutzername**  durch den Benutzernamen zu ersetzt. Der Benutzername steht übrigens vor dem @-Zeichen.
+   Vergessen Sie nicht **MeinBenutzername**  durch den Benutzernamen zu ersetzt. Der Benutzername steht übrigens im Terminal vor dem @-Zeichen.
 
 .. code-block:: console
    
@@ -22,7 +22,7 @@ Auf wenigsten einem Computer muss zunächst das Programm **esptool** installiert
 
 Die erste Zeile installiert drei nützliche Programme auf dem Computer. Mit dem zweiten und dritten Befehl werden die beiden Programme **esptool** und **mpfshell** installiert. 
 
-Mit dem vierten Befehl wird der Benutzer der Gruppe dialout hinzugefügt. Dadurch erhält er die Rechte um auf die Serielle Schnittstelle des PCs zuzugreifen.
+Mit dem vierten Befehl wird der Benutzer der Gruppe *dialout* hinzugefügt. Dadurch erhält der Benutzer die Rechte um auf die serielle Schnittstelle des Computers zugreifen zu dürfen.
 
 .. note::
    
@@ -31,39 +31,22 @@ Mit dem vierten Befehl wird der Benutzer der Gruppe dialout hinzugefügt. Dadurc
 Genauso wie ein Arduino benötigt auch ein ESP32-Mikrocontroller eine Firmware. Aber anders dieser, wird ein ESP32 nicht von Werk aus mit der Micropython-Firmware ausgestattet. Diese muss zunächst in den Speicher des Prozessors geladen (*geflasht*) werden. Erst wenn das getan ist, lassen sich Micropython-Programme darauf ausführen. 
 In den Speicher des ESP32 muss sozusagen ein neues Betriebsystem: **Micropython** installiert werden.
 
-Bei einem Arduino wird die Firmware jedes mal, wenn am Programm eine Änderung vorgenommen wurde, überschrieben. Beim ESP32 passiert das nur ein einziges Mal. Das Micropython*-Betriebssystem* hat nämlich ein Dateisystem in das man mit Hilfe des Programms **mpfshell** ganz leicht Programm-Dateien kopieren oder löschen kann.
+Bei einem Arduino wird die Firmware jedes mal, wenn am Programm eine Änderung vorgenommen wurde, überschrieben. Beim ESP32 passiert das nur ein einziges Mal. Das Micropython-*Betriebssystem* hat nämlich ein Dateisystem, in das man mit Hilfe des Programms **mpfshell** ganz leicht Programm-Dateien kopieren oder löschen kann.
 
 Die Frimware flashen
 --------------------
 
-Als erstes sollten Sie sich die aktuellste `Micropython-Firmware <http://micropython.org/download/#esp32>`_ herunter und speichert sie im Ordner ``firmware`` ab. Im gleichen Ordner startet man jetzt ein Terminal.
-Mit dem Befehl ``ls /dev/ttyUSB*`` kann man überprüfen, ob ein Board vom Computer erkannt wurde.
-Jetzt wird der erste ESP32 mit dem Computer verbunden und anschließend werden die beiden folgenden Befehle ausgeführt:
+Als erstes sollten Sie sich die aktuellste `Micropython-Firmware <http://micropython.org/download/#esp32>`_ herunter laden und im Ordner ``firmware`` abspeichern. Im gleichen Ordner starten Sie jetzt ein Terminal.
 
-.. code-block:: console
-   
-   esptool.py --port /dev/ttyUSB0 erase_flash
-   esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x1000 firmware.bin
+Jetzt wird der erste ESP32 mit dem Computer verbunden. Mit dem Befehl ``ls /dev/ttyUSB*`` kann man überprüfen, ob das Board vom Computer erkannt wurde. Anschließend führen Sie die beiden folgenden Befehle aus um die Firmware auf das ESP32-Board zu flashen.
 
 .. note::
    
-   Denken Sie daran, vorher ``firmware.bin`` durch den Dateinamen der Firmware zu ersetzen.
+   Denken Sie vorher daran, ``firmware.bin`` durch den Dateinamen der Firmware zu ersetzen.
 
+.. code-block:: console
+   
+   $ esptool.py --port /dev/ttyUSB0 erase_flash
+   $ esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x1000 firmware.bin
 
-
-Beispiel-code
-
-.. code-block:: py
-   :linenos:
-
-   import machine
-   import time
-   led_rot=machine.Pin(15, machine.Pin.OUT)
-   led_blau=machine.Pin(14, machine.Pin.OUT)
-   led_gruen=machine.Pin(12, machine.Pin.OUT)
-
-   for x in range (3):
-       led_rot.high()
-       time.sleep(1)
-       led_rot.low()
-       time.sleep(1)
+Wenn alles geklappt hat, kann es mit dem Programmieren nun endlich losgehen.
