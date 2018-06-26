@@ -33,3 +33,4 @@ Voraussetzungen
 #. Software (Firmware, Treiber, Bibliotheken, Tools)
 #. Dieses Tutorial und die Referenz
 
+.. img:: ESP32-DOIT_Pinout.png
