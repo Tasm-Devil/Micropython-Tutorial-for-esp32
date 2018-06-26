@@ -33,5 +33,3 @@ Voraussetzungen
 #. Hardware (IOT Box)
 #. Software (Firmware, Treiber, Bibliotheken, Tools)
 #. Dieses Tutorial und die Referenz
-
-.. image:: img/ESP32-DOIT_Pinout.png
