@@ -1,31 +1,63 @@
 Erste Schritte
 **************
 
-Los geht's. In diesem Kapitel wollen wir eine RGB-LED zum leuchten bringen. Das tolle an einer RGB-LED ist, dass sie in allen Farben leuchten kann. Jede Farbe kann durch das Mischen der drei Grundfarben Rot, Grün und Blau erzeugt werden.
+.. image:: img/blink.gif
 
-.. image:: img/RGB_LED.jpg
+Gleich kann es los gehen. Im ersten Kapitel wirst du eine RGB-LED zum blinken bringen. Das tolle an einer RGB-LED ist, dass sie in allen Farben leuchten kann. Jede Farbe kann durch das Mischen der drei Grundfarben Rot, Grün und Blau erzeugt werden.
 
-Anschlussplan
--------------
+Aber bevor es los geht, gibt es noch paar Dinge die du wissen solltest.
 
-Baue als aller erstes die Schaltung auf deinem Steckbrett nach und achte dabei ganz penibel darauf, dass alle Kabel genau dort sind, wo sie laut der Zeichnung hin gehören. Wenn ein einziges Kabel falsch angeschlossen ist, kann es sein, dass nichts mehr funktioniert. Die beiden Leitungen in der rechten oberen Ecke stellen die Stromversorgung zwischen dem Board und dem Steckbrett her und liegen unter dem Board. die weißen Kabel verbinden den Plus- (rot) und Minus-Pol (blau) der oberen und unteren Hälfte des Steckbretts miteinander. Bei den farbigen Teilen handelt es sich um 47Ω Widerstände. Diese schützen die LED vor zu großen Strömen.
+Das Steckbrett
+--------------
+
+Wie du sicher weißt, fließt der Strom immer vom Plus-Pol zum Minus-Pol. Plus heißt, dass das Potential hier bei 3,3 Volt liegt und Minus steht für 0 Volt. Auf deinem Steckbrett stehen die roten Linien für Plus (3,3V) und die beiden blauen Linien für Minus (0V). Die Farbe Schwarz deutet auch manchmal auf den Minus-Anschluss hin.
+
+.. note::
+
+   Wenn du einen Blick auf den ESP32 wirfst, wirst du erkennen, dass zwei Pins mit dem Aufdruck ``GND`` beschriftet sind. ``GND`` steht für *Ground* und das heißt im Grunde nichts anderes als Minus.
+
+Grundaufbau
+^^^^^^^^^^^
+
+Baue als erstes die Schaltung genau wie auf dem Bild nach. Achte ganz penibel darauf, dass alle Kabel genau dort sind, wo sie hin gehören. Lass dich von den Farben auf dem Bild nicht irritieren. Du wirst in deinem Steckbrücken-Set selten die gewünschte Farbe in der richtigen Länge finden. Wähle die Steckbrücke einfach nach der Länge aus.
 
 .. image:: img/Grundaufbau_Steckplatine.png
 
-Wenn du das ESP32-Board einsetzt, wirst du mit ein wenig Druck und Feinfühligkeit vorgehen müssen um weder das Board noch das Steckbrett zu beschädigen. Bei machen Steckbrettern ist das ein sehr schwieriges Unterfangen. Wenn hier etwas schief geht, kann es passieren, dass du später Probleme bekommst, für die ein Wackelkontakt verantwortlich ist.
+Die beiden Steckbrücken rechts unten verbinden den Plus- und Minus-Pol des ESP32 mit dem Steckbrett. 3,3V wird mit der roten Versorgungsleitung und GND mit der blauen Versorgungsleitung verbunden.
+
+Die beiden Kabel links verbinden den Plus- (rot) und Minus-Pol (blau) der oberen und unteren Hälfte des Steckbretts miteinander.
+
+Wenn du als nächstes das ESP32-Board einsetzt, wirst du mit ein wenig Druck und Feinfühligkeit vorgehen müssen um weder das Board noch das Steckbrett zu beschädigen. Bei manchen Steckbrettern ist das gar nicht so einfach. Wenn du hier nicht vorsichtig bist, kann es passieren, dass du später Probleme bekommst. Handle also unbedingt mit Gefühl!
 
 .. image:: img/Grundaufbau_mit_LED_Steckplatine.png
 
-Pinbelegung
------------
+Auf dem zweiten Bild kannst du sehen, wie du die RGB-LED und die drei Widerstände mit dem ESP32 verbindest.
 
-Dieses Schaubild zeigt die Belegung der Pins. Das sind die kleinen Stifte, die du eben in das Steckbrett gedrückt hast. Vergleiche mal die weißen Boxen in denen GPIO steht mit der Beschriftung auf dem Board. Zum Beispiel steht neben dem Pin D0 GPIO16. Die LED ist an den Pins D5, D6 und D8 angeschlossen. Übersetzt man die Namen mit dem Schaubild kommt man auf GPIO14, GPIO12 und GPIO15. Findest du diese Zahlen in dem Programm weiter unten wieder?
+.. warning::
+    Ließ dir unbedingt zu erst den nächsten Abschnitt durch bevor du die RGB-LED falsch herum einsetzt! Die Länge der vier Anschlusspins spielt nämlich eine wichtige Rolle.
+
+Wissenswertes über LEDs
+-----------------------
+
+Es zwei wichtige Dinge, die man über LEDs wissen sollte. Normale LEDs haben zwei Anschlüsse. Eine Kathode (Minus) und eine Anode (Plus). RGB-LEDs bestehen im Prinzip aus drei normalen LEDs - eine rote, eine blaue und eine grüne. Müsste eine RGB-LED dann  nicht 6 Anschlüsse, für drei Anoden und drei Kathoden, haben?
+
+Die Antwort ist ganz einfach: Nein, denn innerhalb der RGB-LED werden, je nach Typ, entweder alle drei Anoden (Plus-Pole) oder alle drei Kathoden (Minus-Pole) miteinander verbunden. Bei der RGB-LED im Set handelt es sich um eine vom Typ *common anode* also gemeinsame Anode. Also haben die Plus-Pole der drei LEDs einen gemeinsamen Anschluss. **Man erkennt ihn am langen Pin!** Dieser Anschlusspin sollte also immer mit Plus verbunden sein.
+
+.. image:: img/RGB_LED.jpg
+
+Eine zweite Sache sollte man auch immer im Hinterkopf behalten. LEDs dürfen niemals ohne einen Vorwiderstand in einen Stromkreis eingebaut werden. Die 47Ohm Widerstände sind auf die 3,3V des ESP32 abgestimmt. Jede LED bekommt einen eigenen Widerstand. Am besten kürzt du die Beinchen der Widerstände mit einem Seitenschneider auf die halbe Länge.
+
+Das Pinout-Diagramm
+-------------------
+
+Das Schaubild zeigt dir welche Funktion(en) die 30 Pins deines ESP32-Boards haben.
+Nimm dir einen Moment Zeit und mache dir klar welche fünf Pins du aktuell in deiner Schaltung benutzt.
 
 .. image:: img/ESP32-DOIT_Pinout.png
 
 
-Beispiel
---------
+Dein erstes Programm
+--------------------
 
 Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken lässt. Speichere es unter dem Dateinamen main.py im Verzeichniss ~\esp32 ab (~ steht für dein home-Verzeichnis).
 
@@ -44,4 +76,3 @@ Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken lässt. Sp
        led_rot.value(0)
        time.sleep(1)
 
-.. image:: img/blink.gif
