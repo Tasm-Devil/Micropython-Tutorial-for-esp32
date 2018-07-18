@@ -101,4 +101,6 @@ Gratulation! Du hast soeben einen Mikrochip programmiert!
 Aufgabe
 =======
 
-* Versuche das Programm so anzupassen, da die LED abwechselnd in den 6 Farben: rot, violett, blau, cyan, grün und gelb leuchtet.
+* Lass abwechselnd die rote, die blaue und die grüne LED leuchten.
+* Ändere die Blinkgeschwindigkeit.
+* Lass die LED abwechselnd in den 6 Farben: Rot, Violett, Blau, Cyan, Grün und Gelb leuchten.
