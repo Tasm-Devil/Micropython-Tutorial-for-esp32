@@ -58,7 +58,7 @@ Nimm dir einen Moment Zeit und mache dir klar welche fünf Pins du aktuell in de
 Dein erstes Programm
 --------------------
 
-Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken lässt. Speichere es unter dem Dateinamen main.py im Verzeichniss ``~\esp32 ab`` (``~`` steht für dein home-Verzeichnis).
+Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken lässt. Speichere es unter dem Dateinamen main.py im Verzeichniss ``~/esp32 ab`` (``~`` steht für dein home-Verzeichnis).
 
 ..  code-block:: py
     :linenos:
@@ -75,3 +75,13 @@ Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken lässt. Sp
         sleep_ms(500)
         led_red.off()
         sleep_ms(500)
+
+Jetzt muss diese Datei auf das Board kopiert werden. Dazu öffnest du im Verzeichnis ``esp32`` ein Terminal und startest dort das Programm ``mpfshell``. Das Bild zeigt dir, was alles schief gehen kann. Der erste Befehl ``ls`` kann nicht ausgeführt werden, da noch keine Verbindung zum Board hergestellt wurde. Im zweiten Anlauf wurde vergessen das Board an den Computer anzuschließen und dann teilt der Computer im dritten Anlauf dem Board den Namen ``ttyUSB1`` zu. Das passiert aber eher selten. Schlussendlich steht die Verbindung und nachdem Kommando ``REPL`` begrüßt dich der typische Python-Promt ``>>>``.
+
+.. image:: img/open_ttyUSB0.png
+
+Um die Datei ``main.py`` kopieren zu können, musst du die REPL (*Read–Eval–Print Loop*) wieder verlassen. Drücke dazu Die Taste ``9 ]`` während du die Tasten ``Strg`` und ``Alt Gr`` gedrückt hältst. Auf einer englischsprachigen Tastatur macht diese Tastenkombination mehr Sinn und ist einfacher zu finden. Aber damit müssen wir uns abfinden.
+
+.. image:: img/copy_main.png
+
+Gib im Anschluss wieder ``repl`` ein und drücke ``Strg`` und ``D`` um den ESP32 neu zu starten. Die Datei ``main.py`` wird immer automatisch gestartet wenn der ESP32 neu bootet.
