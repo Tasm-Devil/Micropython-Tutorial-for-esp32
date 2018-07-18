@@ -1,5 +1,4 @@
 wifi/upp.py
-res/
-ToDo.txt
+.res/
 docs/_build
 docs/*.BAK

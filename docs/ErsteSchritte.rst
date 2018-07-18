@@ -12,9 +12,8 @@ Das Steckbrett
 
 Wie du sicher weißt, fließt der Strom immer vom Plus-Pol zum Minus-Pol. Plus heißt, dass das Potential hier bei 3,3 Volt liegt und Minus steht für 0 Volt. Auf deinem Steckbrett stehen die roten Linien für Plus (3,3V) und die beiden blauen Linien für Minus (0V). Die Farbe Schwarz deutet auch manchmal auf den Minus-Anschluss hin.
 
-.. note::
-
-   Wenn du einen Blick auf den ESP32 wirfst, wirst du erkennen, dass zwei Pins mit dem Aufdruck ``GND`` beschriftet sind. ``GND`` steht für *Ground* und das heißt im Grunde nichts anderes als Minus.
+..  note::
+    Wenn du einen Blick auf den ESP32 wirfst, wirst du erkennen, dass zwei Pins mit dem Aufdruck ``GND`` beschriftet sind. ``GND`` steht für *Ground* und das heißt im Grunde nichts anderes als Minus.
 
 Grundaufbau
 ^^^^^^^^^^^
@@ -33,7 +32,7 @@ Wenn du als nächstes das ESP32-Board einsetzt, wirst du mit ein wenig Druck und
 
 Auf dem zweiten Bild kannst du sehen, wie du die RGB-LED und die drei Widerstände mit dem ESP32 verbindest.
 
-.. warning::
+..  warning::
     Ließ dir unbedingt zu erst den nächsten Abschnitt durch bevor du die RGB-LED falsch herum einsetzt! Die Länge der vier Anschlusspins spielt nämlich eine wichtige Rolle.
 
 Wissenswertes über LEDs
@@ -59,20 +58,20 @@ Nimm dir einen Moment Zeit und mache dir klar welche fünf Pins du aktuell in de
 Dein erstes Programm
 --------------------
 
-Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken lässt. Speichere es unter dem Dateinamen main.py im Verzeichniss ~\esp32 ab (~ steht für dein home-Verzeichnis).
+Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken lässt. Speichere es unter dem Dateinamen main.py im Verzeichniss ``~\esp32 ab`` (``~`` steht für dein home-Verzeichnis).
 
-.. code-block:: py
-   :linenos:
-   
-   import machine
-   import time
-   led_rot = machine.Pin(15, machine.Pin.OUT)
-   led_blau = machine.Pin(4, machine.Pin.OUT)
-   led_gruen = machine.Pin(2, machine.Pin.OUT)
+..  code-block:: py
+    :linenos:
+    
+    from lib.display.led import LED
+    from time import sleep_ms
 
-   for x in range (3):
-       led_rot.value(1)
-       time.sleep(1)
-       led_rot.value(0)
-       time.sleep(1)
+    led_red = LED(15)
+    led_green = LED(2)
+    led_blue = LED(4)
 
+    for x in range(3):
+        led_red.on()
+        sleep_ms(500)
+        led_red.off()
+        sleep_ms(500)
