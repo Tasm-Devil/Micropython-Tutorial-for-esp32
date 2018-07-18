@@ -1,0 +1,8 @@
+OLED 128x64 I2C Monochrome Display.fzpz:
+  http://forum.fritzing.org/t/oled-128x64-i2c-monochrome-display-ssd1306-created/1202
+
+RFID-RC522-v3.fzpz: 
+  https://github.com/miguelbalboa/rfid/tree/master/doc/fritzing
+  
+ESP32S_Doit.fzpz:
+  hier. Erstellt 2018 von Pascal Deneaux
