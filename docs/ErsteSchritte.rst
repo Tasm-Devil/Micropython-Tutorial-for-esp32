@@ -40,11 +40,11 @@ Wissenswertes über LEDs
 
 Es zwei wichtige Dinge, die man über LEDs wissen sollte. Normale LEDs haben zwei Anschlüsse. Eine Kathode (Minus) und eine Anode (Plus). RGB-LEDs bestehen im Prinzip aus drei normalen LEDs - eine rote, eine blaue und eine grüne. Müsste eine RGB-LED dann  nicht 6 Anschlüsse, für drei Anoden und drei Kathoden, haben?
 
-Die Antwort ist ganz einfach: Nein, denn innerhalb der RGB-LED werden die drei Anoden (Pluspole) der drei LEDs miteinander verbunden. Bei der RGB-LED im Set handelt es sich um ein Bauteil vom Typ *common anode* also gemeinsame Anode. Die Pluspole der drei LEDs haben also einen gemeinsamen Anschluss. **Man erkennt ihn am langen Pin!**
+Die Antwort ist ganz einfach: Nein, denn innerhalb der RGB-LED werden die drei Kathoden (Minuspole) der drei LEDs miteinander verbunden. Bei der RGB-LED im Set handelt es sich um ein Bauteil vom Typ *common cathode* also gemeinsame Kathode. Die Minuspole der drei LEDs haben also einen gemeinsamen Anschluss. **Man erkennt ihn am langen Pin!**
 
-**Dieser lange Anschlusspin sollte also immer mit Plus (rot) verbunden sein.**
+**Dieser lange Anschlusspin sollte also immer mit Minus (blau) verbunden sein.**
 
-Es gibt auch RGB-LEDs vom Typ *common cathode* zu kaufen. Sie haben logischerweise einen gemeinsamen Minuspol.
+Es gibt auch RGB-LEDs vom Typ *common anode* zu kaufen. Sie haben logischerweise einen gemeinsamen Pluspol.
 
 .. image:: img/RGB_LED.jpg
 
@@ -71,8 +71,8 @@ Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken lässt. Sp
     from time import sleep_ms
 
     led_red = LED(15)
-    led_green = LED(2)
-    led_blue = LED(4)
+    led_green = LED(4)
+    led_blue = LED(16)
 
     for x in range(3):
         led_red.on()
@@ -98,9 +98,11 @@ Wenn alles geklappt hat, müsste die LED jetzt blinken.
 
 Gratulation! Du hast soeben einen Mikrochip programmiert!
 
-Aufgabe
-=======
+Aufgaben
+========
 
+* Betrachte die Animation am Anfang der Seite. Um welchen Typ von RGB-LED handelt es sich. *common cathode* oder *common anode*?
+* Verändere das Programm so, dassder Pin 2 also ``LED(2)`` angesprochen wird. Was passiert?
 * Lass abwechselnd die rote, die blaue und die grüne LED leuchten.
 * Ändere die Blinkgeschwindigkeit.
 * Lass die LED abwechselnd in den 6 Farben: Rot, Violett, Blau, Cyan, Grün und Gelb leuchten.
