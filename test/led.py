@@ -6,7 +6,8 @@ led_blue = LED(16)
 
 led_red.pulse(10)
 led_green.pulse(10)
-led_blue.pulse(10)
+led_blue.fade_up(10)
+led_blue.fade_down(10)
 
 rgb = RGB_LED(led_red, led_green, led_blue)
 rgb.rainbow()

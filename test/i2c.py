@@ -5,8 +5,6 @@ from machine import I2C, Pin
 bus = I2C(scl=Pin(22), sda=Pin(21))
 
 # ssd1306 oled Display
-# https://github.com/adafruit/micropython-adafruit-ssd1306
-# ToDo: Watch this -> https://github.com/peterhinch/micropython-samples/tree/master/SSD1306
 oled=None
 try:
     from lib.display.ssd1306 import SSD1306_I2C
@@ -22,7 +20,6 @@ except KeyboardInterrupt:
 
 
 # Bosch bme280 Pres, Temp and Humidity Sensor
-# Driver from: https://github.com/kevbu/micropython-bme280
 bme = None
 try:
     from lib.sensor.bme280 import BME280
@@ -48,7 +45,6 @@ except KeyboardInterrupt:
 
 
 # bh1750 light sensor
-# https://github.com/PinkInk/upylib/tree/master/bh1750
 lum=None
 try:
     from lib.sensor.bh1750 import BH1750
@@ -70,7 +66,6 @@ except KeyboardInterrupt:
 
 
 # adxl345 G-Force sensor
-# http://andidinata.com/download/
 adxl=None
 try:
     from lib.sensor.adxl345 import ADXL345

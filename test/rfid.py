@@ -22,15 +22,3 @@ try:
                 sleep_ms(100)
 except KeyboardInterrupt:
     print("Bye")
-
-# RFID-Modul Anschlussplan für ESP32
-# SDA   =   GPIO 5
-# SCK   =   GPIO 18
-# MOSI  =   GPIO 23
-# MISO  =   GPIO 19
-# 3.3   =   3.3
-# GND   =   GND
-# IRQ und RST werden nicht benötigt
-
-# Testing rfid module
-# https://github.com/wendlers/micropython-mfrc522
