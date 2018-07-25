@@ -7,6 +7,9 @@ Eingabe Teil 1
 Analoge Eingabe (ADC)
 =====================
 
+Regensensor
+-----------
+
 Schiebewiderstand
 -----------------
 
@@ -50,9 +53,6 @@ Digitale Eingabe
 
 Taster
 ------
-
-Regensensor
------------
 
 Bodenfeuchtesensor
 ------------------

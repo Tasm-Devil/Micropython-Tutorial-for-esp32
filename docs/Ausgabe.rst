@@ -20,18 +20,19 @@ Die Datei ``test/led.py`` demonstriert die Möglichkeiten der Klassen ``LED`` un
     led_green = LED(4)
     led_blue = LED(16)
 
-    led_red.pulse(10)
-    led_green.pulse(10)
+    led_red.fade_up(10)
+    led_red.fade_down(10)
+    led_green.fade_up(10)
+    led_green.fade_down(10)
     led_blue.fade_up(10)
     led_blue.fade_down(10)
 
     rgb = RGB_LED(led_red, led_green, led_blue)
     rgb.rainbow()
-    
+
     led_red.off()
     led_green.off()
     led_blue.off()
-
 
 
 ..  code-block:: py

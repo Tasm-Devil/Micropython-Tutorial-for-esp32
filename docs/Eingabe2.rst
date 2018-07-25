@@ -2,21 +2,22 @@ Eingabe Teil 2
 **************
 
 
-Umweltsensor (BME280)
----------------------
+Umweltsensoren
+--------------
+
+Die beiden Umweltsensoren bme280 und bh1750 ...
+Am besten schließt du vorher das oled-Display an.
+
+..  code-block:: py
+    
+    import test.i2c
 
 Quellen
 ^^^^^^^
 
 * https://github.com/kevbu/micropython-bme280
-
-Helligkeitssensor
------------------
-
-Quellen
-^^^^^^^
-
 * https://github.com/PinkInk/upylib/tree/master/bh1750
+
 
 Beschleunigungssensor
 ---------------------

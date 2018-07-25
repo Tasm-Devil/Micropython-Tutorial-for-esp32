@@ -17,6 +17,7 @@ Ein Micropython Tutorial für den esp32-Mikrocontroller
 Vorwort
 =======
 
+
 .. warning::
     Diese Dokumentation befindet sich im Aufbau.
 
@@ -33,6 +34,8 @@ Aufbau dieses Tutorials.
 
 Voraussetzungen
 ---------------
+
+.. image:: img/Teile.jpg
 
 #. Hardware (IOT Box)
 #. Software (Firmware, Treiber, Bibliotheken, Tools)
