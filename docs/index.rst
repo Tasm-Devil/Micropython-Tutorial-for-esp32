@@ -4,38 +4,46 @@ Ein Micropython Tutorial für den esp32-Mikrocontroller
 Vorwort
 *******
 
-
 .. warning::
-    Diese Dokumentation befindet sich im Aufbau.
+    Dieses Tutorial befindet sich noch im Aufbau und wird zur Zeit von einer Person angelegt. Wenn du Lust hast mit zu machen, kontaktiere mich bitte über `Github <https://github.com/Tasm-Devil/Micropython-Tutorial-for-esp32>`_.
 
-Bevor es los geht...
+An wen richtet sich dieses Tutorial ?
+=====================================
 
-An wen richtet sich diese Dokumentation ?
-*****************************************
+Natürlich an dich! Dieses Tutorial ist entstanden mit dem Gedanken, es im Informatikunterricht in der Mittelstufe einzusetzen. 
+Wenn du außerhalb der Schule auf diese Seite gestoßen bist, bist du natürlich ebenfalls willkommen. Jeder Autodidakt darf die Inhalte, die hier geboten werden gerne frei verwenden.
+Ich hoffe das dieses Tutorial dich etwas lehrt und dich dazu inspiriert, etwas großartiges damit zu erschaffen.
+
+Micropython ist eine wundervolle Programmiersprache, die es dir sehr leicht macht, tolle Anwendungen zu entwickeln. Ich wünsche dir viel Spaß!
 
 Entstehung
+==========
 
-Im Netz finden sich fast keine deutschsprachigen Anleitungen zu Micropython. Nachdem  ich mich intensiv mit dem esp8266 und dem Nachfolger esp32 auseinandergesetzt habe, viele Blogs und englischsprachige Tutorials gelesen und die Vor- und Nachteile gegenüber dem erprobten Arduino abgewägt habe, bin ich zu der Entscheidung gelangt, dass endlich ein deutschsprachiges Tutorial für den Schulunterricht oder das Selbststudium her muss.
+Zum Zeitpunkt der Entstehung dieses Tutorials fand ich im Internet keine deutschsprachigen Anleitungen zu Micropython.
 
-Aufbau dieses Tutorials.
+Nach intensiver Beschäftigung mit dem esp8266 und dem Nachfolger esp32 bin ich zu der Entscheidung gelangt, dass endlich ein deutschsprachiges Tutorial für den Schulunterricht oder das Selbststudium her muss.
+
+
+
+Aufbau dieses Tutorials
+=======================
 
 Voraussetzungen
-***************
+===============
+
+#. Hardware
+#. Software (Firmware, Treiber, Bibliotheken, Tools)
+#. Dieses Tutorial
 
 .. image:: img/Teile.jpg
 
-#. Hardware (IOT Box)
-#. Software (Firmware, Treiber, Bibliotheken, Tools)
-#. Dieses Tutorial und die Referenz
-
-
 .. toctree::
    :numbered:
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Inhaltsverzeichnis:
 
    Vorbereitung/Vorbereitungen
-   ErsteSchritte
+   ErsteSchritte/ErsteSchritte
    Ausgabe
    Eingabe1
    Eingabe2

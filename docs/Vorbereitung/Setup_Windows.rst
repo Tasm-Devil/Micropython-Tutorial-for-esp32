@@ -1,7 +1,7 @@
 Windows Setup
 -------------
 
-Bevor es los gehen kann, solltest du dir die `zip-Datei mit der App und allen Treibern <https://github.com/Tasm-Devil/Micropython-Tutorial-for-esp32/archive/master.zip>`_ herunter laden.
+Um los zu legen, lädst du dir die `zip-Datei mit der App und allen Treibern <https://github.com/Tasm-Devil/Micropython-Tutorial-for-esp32/archive/master.zip>`_ herunter und öffnest sie.
 
 Entpacke anschließend den Ordner ``Micropython-Tutorial-for-esp32-master`` aus der zip-Datei auf deinen Desktop und benenne ihn in ``esp32`` um.
 
@@ -15,7 +15,7 @@ Wenn du zum ersten mal das **uPyCraft** startest, wirst du gebeten eine Schrifta
 
 ..  image:: ../img/Schritt_1.png
 
-Achte darauf, dass du zu erst das richtige board auswählst und lasse uPyCraft die Firmware selbst auswählen und aus dem Internet laden indem du auf **ok** klickst. Zunächst wird die neuste Micropython-Firmware heruntergeladen und im Anschluss wird der Speicher des ESP32 mit der neuen Firmware überschrieben. Die kleine blaue LED zeigt diesen Vorgang durch ein flackern an.
+Achte darauf, dass du das richtige board (esp32) auswählst und lasse uPyCraft die Firmware selbst auswählen und aus dem Internet laden indem du auf **ok** klickst. Zunächst wird die neuste Micropython-Firmware heruntergeladen und im Anschluss wird der Speicher des ESP32 mit der neuen Firmware überschrieben. Die kleine blaue LED zeigt diesen Vorgang durch ein flackern an.
 
 ..  image:: ../img/Schritt_2.png
 
