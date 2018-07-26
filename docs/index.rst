@@ -1,21 +1,8 @@
 Ein Micropython Tutorial für den esp32-Mikrocontroller
 ######################################################
 
-.. toctree::
-   :maxdepth: 3
-   :caption: Inhaltsverzeichnis:
-
-   Vorbereitungen
-   ErsteSchritte
-   Ausgabe
-   Eingabe1
-   Eingabe2
-   Internet
-   Kaufberatung
-   Lizenz
-
 Vorwort
-=======
+*******
 
 
 .. warning::
@@ -24,7 +11,7 @@ Vorwort
 Bevor es los geht...
 
 An wen richtet sich diese Dokumentation ?
------------------------------------------
+*****************************************
 
 Entstehung
 
@@ -33,10 +20,25 @@ Im Netz finden sich fast keine deutschsprachigen Anleitungen zu Micropython. Nac
 Aufbau dieses Tutorials.
 
 Voraussetzungen
----------------
+***************
 
 .. image:: img/Teile.jpg
 
 #. Hardware (IOT Box)
 #. Software (Firmware, Treiber, Bibliotheken, Tools)
 #. Dieses Tutorial und die Referenz
+
+
+.. toctree::
+   :numbered:
+   :maxdepth: 3
+   :caption: Inhaltsverzeichnis:
+
+   Vorbereitung/Vorbereitungen
+   ErsteSchritte
+   Ausgabe
+   Eingabe1
+   Eingabe2
+   Internet
+   Kaufberatung
+   Lizenz
