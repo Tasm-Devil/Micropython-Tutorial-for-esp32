@@ -1,15 +1,10 @@
 Eingabe Teil 1
 ==============
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
-
-Da sich dieses Tutorial noch im Aufbau befindet, findest du hier nur ein
-paar Beispielprogramme. Experimentiere mit den Programmen, um
-herauszufinden, wie du die Befehle einsetzten kannst.
-:::
+> **Hinweis**
+> Da sich dieses Tutorial noch im Aufbau befindet, findest du hier nur ein
+> paar Beispielprogramme. Experimentiere mit den Programmen, um
+> herauszufinden, wie du die Befehle einsetzten kannst.
 
 Analoge Eingabe (ADC)
 ---------------------
@@ -25,7 +20,7 @@ mit Minus (blau) und den **OTA**-Pin mit **GPIO 36 (VP)**.
 
 ![image](img/Slide-Potentiometer-10K.jpg)
 
-``` {.sourceCode .py}
+```python
 from machine import Pin, ADC
 from time import sleep_ms
 from lib.display.led import LED, RGB_LED
@@ -46,7 +41,7 @@ except KeyboardInterrupt:
     print("Bye")
 ```
 
-``` {.sourceCode .py}
+```python
 import test.adc
 ```
 

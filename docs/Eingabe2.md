@@ -7,7 +7,7 @@ Umweltsensoren
 Die beiden Umweltsensoren bme280 und bh1750 \... Am besten schließt du
 vorher das oled-Display an.
 
-``` {.sourceCode .py}
+```python
 import test.i2c
 ```
 
@@ -32,7 +32,7 @@ und **GND** mit der blauen. Verbinde **MOSI** mit **GPIO23 (SPI MOSI)**,
 **SDA** mit **GPIO5 (SPI CS0)**. Die Pins **IRQ** und **RST** brauchst
 du nicht anzuschließen.
 
-``` {.sourceCode .py}
+```python
 from machine import Pin, SPI
 from lib.rfid.mfrc522 import MFRC522
 from time import sleep_ms
@@ -59,7 +59,7 @@ except KeyboardInterrupt:
     print("Bye")
 ```
 
-``` {.sourceCode .py}
+```python
 import test.rfid
 ```
 

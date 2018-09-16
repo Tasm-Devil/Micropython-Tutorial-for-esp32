@@ -2,58 +2,30 @@ Kaufberatung
 ============
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Was                                 Wo                                                                                                                                                                                         Wie viel
-  ----------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ --------------
-  ESP32                               [AliExpress](https://www.aliexpress.com/item/ESP32-ESP-32-ESP32S-ESP-32S-CP2102-Wireless-WiFi-Bluetooth-Development-Board-Micro-USB-Dual-Core/32867696371.html)                            4,57 €
-
-  Steckplatine groß                   [AliExpress](https://www.aliexpress.com/item/Transparent-830-Tie-points-Solderless-Plug-in-Prototype-Breadboard-PCB-Experiment-Test-Circuit-Board-Kit-for/32731413507.html)                1,95 €
-
-  Steckplatine klein                  [AliExpress](https://www.aliexpress.com/item/Quality-mini-bread-board-breadboard-8-5CM-x-5-5CM-400-holes/32341808359.html)                                                                 1,10 €
-
-  Jumper für Steckplatine             [AliExpress](https://www.aliexpress.com/item/140Pcs-Lot-U-Shape-Shield-Solderless-Breadboard-Jumper-Cable-Wires-Kit-for-Arduino-Best-Quality/32230235592.html)                             1,79 €
-
-  Dupont Kabel m zu m 40 Stk          [AliExpress](https://www.aliexpress.com/item/40PCS-10CM-2-54MM-Row-Male-to-Male-Dupont-Cable-Breadboard-Jumper-Wire-For-arduino/32729488951.html)                                          0,57 €
-
-  Dupont Kabel m zu w 40 Stk          [AliExpress](https://www.aliexpress.com/item/40PCS-Dupont-10CM-Male-To-Female-Jumper-Wire-Ribbon-Cable-for-Arduino/32728729872.html)                                                       0,56 €
-
-  Punkt-Matrix LED-Modul 8x32         [AliExpress](https://www.aliexpress.com/item/MAX7219-Dot-Matrix-Module-For-Arduino-Microcontroller-4-In-One-Display-with-5P-Line/32819783619.html)                                         3,31 €
-
-  OLED-Display 128x64                 [AliExpress](https://www.aliexpress.com/item/1pcs-0-96-blue-0-96-inch-OLED-module-New-128X64-OLED-LCD-LED-Display-Module/32643950109.html)                                                 1,91 €
-
-  Drehimpulsgeber                     [AliExpress](https://www.aliexpress.com/item/Rotary-Encoder-Module-Brick-Sensor-Development-Round-Audio-Rotating-Potentiometer-Knob-Cap-for-Arduino/32822717070.html)                      2,02 €
-
-  RFID Modul                          [AliExpress](https://www.aliexpress.com/item/1Set-PN532-NFC-RFID-Wireless-Module-V3-User-Kits-Reader-Writer-Mode-IC-S50-Card-PCB/32452824672.html)                                         3,84 €
-
-  Gyrosensor ADXL-345                 [AliExpress](https://www.aliexpress.com/item/GY-291-ADXL345-3-Axis-Digital-Gravity-Sensor-Acceleration-Module-Tilt-Sensor-For-Arduino-Free-Shipping/32279628901.html)                      0,81 €
-
-  Kombisensor Farbe Entfernung Geste  [AliExpress](https://www.aliexpress.com/item/1-pcs-DIY-Mall-RGB-Gesture-Sensor-APDS-9960-ADPS-9960-for-Arduino-I2C-Interface-3/32757482958.html)                                           2,17 €
-
-  Kombisensor Luftfeuchte Baro Temp   [AliExpress](https://www.aliexpress.com/item/High-Accuracy-BME280-Digital-Sensor-Temperature-Humidity-Barometric-Pressure-Sensor-Module-GY-BME280-I2C-SPI-1/32672210336.html)              2,75 €
-
-  Helligkeitssensor                   [AliExpress](https://www.aliexpress.com/item/Free-Shipping-GY-302-BH1750-BH1750FVI-light-intensity-illumination-module-3V-5V-We-are-the-manufacturer/32573189452.html)                     1,02 €
-
-  PIR Bewegungssensor                 [AliExpress](https://www.aliexpress.com/item/Mini-IR-Pyroelectric-Infrared-PIR-Motion-Human-Sensor-Automatic-Detector-Module-high-reliability-12mm-x-25mm/32749737125.html)                1,75 €
-
-  Reedschalter                        [AliExpress](https://www.aliexpress.com/item/10pcs-Reed-Switch-2-14mm-Magnetic-Control-Switch-Green-Glass-Reed-Switches-Glass-Normally-Open-Contact/32424207994.html)                      0,23 €
-
-  Bodenfeuchtesensor                  [AliExpress](https://www.aliexpress.com/item/Smart-Electronics-Soil-Moisture-Hygrometer-Detection-Humidity-Sensor-Module-For-arduino-Development-Board-DIY-Robot-Smart/32562744759.html)   0,47 €
-
-  Wasser-Sensor                       [AliExpress](https://www.aliexpress.com/item/Free-shipping-Water-Sensor-for-Arduino-water-droplet-detection-depth-with-demo-code/32280702980.html)                                         0,21 €
-
-  5 Drucktaster                       [AliExpress](https://www.aliexpress.com/item/Free-shipping-25PCS-Tactile-Push-Button-Switch-Momentary-12-12-7-3MM-Micro-switch-button-25PCS/32803137574.html)                              0,73 €
-
-  2 LDR Photodiode                    [AliExpress](https://www.aliexpress.com/item/50PCS-LDR-Photo-Light-Sensitive-Resistor-Photoelectric-Photoresistor-5528-GL5528/32668713683.html)                                            0,04 €
-
-  Keramik Pinzette                    [AliExpress](https://www.aliexpress.com/item/1pc-Anti-acid-Ceramic-Tipped-Stainless-Steel-Tweezer-Fine-Pointed-Tips-with-Heat-Resistance-130x10mm/32852192364.html)                        1,19 €
-
-  RGB-LED gemeinsame Anode            [AliExpress](https://www.aliexpress.com/item/50Pcs-5mm-4pin-RGB-Tri-Color-Common-Anode-LED-Red-Green-Blue/1852144523.html)                                                                 0,05 €
-
-  Wisent Organizer 3 Plus             [Bauhaus](https://www.bauhaus.info/kleinteilemagazine-sichtlagerkaesten/wisent-organizer-3-68/p/20319856)                                                                                  7,95 €
-
-  Magnet 10x2mm                       [Amazon](https://www.amazon.de/dp/B06X977K8L/ref=psdc_340675011_t2_B00PACHAM4)                                                                                                             0,20 €
-
-  Diverse Widerstände und                                                                                                                                                                                                        
-  Kondensatoren                                                                                                                                                                                                                  
+  Was                                 | Wo                                                                                                                                                                                                                 | Wie viel
+  ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------
+  ESP32                               |[AliExpress](https://www.aliexpress.com/item/ESP32-ESP-32-ESP32S-ESP-32S-CP2102-Wireless-WiFi-Bluetooth-Development-Board-Micro-USB-Dual-Core/32867696371.html)                              | 4,57 €
+  Steckplatine groß                   |[AliExpress](https://www.aliexpress.com/item/Transparent-830-Tie-points-Solderless-Plug-in-Prototype-Breadboard-PCB-Experiment-Test-Circuit-Board-Kit-for/32731413507.html)                | 1,95 €
+  Steckplatine klein                  |[AliExpress](https://www.aliexpress.com/item/Quality-mini-bread-board-breadboard-8-5CM-x-5-5CM-400-holes/32341808359.html)                                                                        | 1,10 €
+  Jumper für Steckplatine             |[AliExpress](https://www.aliexpress.com/item/140Pcs-Lot-U-Shape-Shield-Solderless-Breadboard-Jumper-Cable-Wires-Kit-for-Arduino-Best-Quality/32230235592.html)                               | 1,79 €
+  Dupont Kabel m zu m 40 Stk          |[AliExpress](https://www.aliexpress.com/item/40PCS-10CM-2-54MM-Row-Male-to-Male-Dupont-Cable-Breadboard-Jumper-Wire-For-arduino/32729488951.html)                                              | 0,57 €
+  Dupont Kabel m zu w 40 Stk          |[AliExpress](https://www.aliexpress.com/item/40PCS-Dupont-10CM-Male-To-Female-Jumper-Wire-Ribbon-Cable-for-Arduino/32728729872.html)                                                             | 0,56 €
+  Punkt-Matrix LED-Modul 8x32         |[AliExpress](https://www.aliexpress.com/item/MAX7219-Dot-Matrix-Module-For-Arduino-Microcontroller-4-In-One-Display-with-5P-Line/32819783619.html)                                             | 3,31 €
+  OLED-Display 128x64                 |[AliExpress](https://www.aliexpress.com/item/1pcs-0-96-blue-0-96-inch-OLED-module-New-128X64-OLED-LCD-LED-Display-Module/32643950109.html)                                                      | 1,91 €
+  Drehimpulsgeber                     |[AliExpress](https://www.aliexpress.com/item/Rotary-Encoder-Module-Brick-Sensor-Development-Round-Audio-Rotating-Potentiometer-Knob-Cap-for-Arduino/32822717070.html)                       | 2,02 €
+  RFID Modul                          |[AliExpress](https://www.aliexpress.com/item/Free-Shipping-RFID-module-RC522-Kits-S50-13-56-Mhz-6cm-With-Tags-SPI-Write-Read/32523771442.html)                                                 | 1,13 €
+  Gyrosensor ADXL-345                 |[AliExpress](https://www.aliexpress.com/item/GY-291-ADXL345-3-Axis-Digital-Gravity-Sensor-Acceleration-Module-Tilt-Sensor-For-Arduino-Free-Shipping/32279628901.html)                       | 0,81 €
+  Kombisensor Luftfeuchte Baro Temp   |[AliExpress](https://www.aliexpress.com/item/High-Accuracy-BME280-Digital-Sensor-Temperature-Humidity-Barometric-Pressure-Sensor-Module-GY-BME280-I2C-SPI-1/32672210336.html)              | 2,75 €
+  Helligkeitssensor                   |[AliExpress](https://www.aliexpress.com/item/Free-Shipping-GY-302-BH1750-BH1750FVI-light-intensity-illumination-module-3V-5V-We-are-the-manufacturer/32573189452.html)                      | 1,02 €
+  PIR Bewegungssensor                 |[AliExpress](https://www.aliexpress.com/item/Mini-IR-Pyroelectric-Infrared-PIR-Motion-Human-Sensor-Automatic-Detector-Module-high-reliability-12mm-x-25mm/32749737125.html)                | 1,75 €
+  Reedschalter                        |[AliExpress](https://www.aliexpress.com/item/10pcs-Reed-Switch-2-14mm-Magnetic-Control-Switch-Green-Glass-Reed-Switches-Glass-Normally-Open-Contact/32424207994.html)                       | 0,23 €
+  Bodenfeuchtesensor                  |[AliExpress](https://www.aliexpress.com/item/Smart-Electronics-Soil-Moisture-Hygrometer-Detection-Humidity-Sensor-Module-For-arduino-Development-Board-DIY-Robot-Smart/32562744759.html) | 0,47 €
+  Wasser-Sensor                       |[AliExpress](https://www.aliexpress.com/item/Free-shipping-Water-Sensor-for-Arduino-water-droplet-detection-depth-with-demo-code/32280702980.html)                                             | 0,21 €
+  5 Drucktaster                       |[AliExpress](https://www.aliexpress.com/item/Free-shipping-25PCS-Tactile-Push-Button-Switch-Momentary-12-12-7-3MM-Micro-switch-button-25PCS/32803137574.html)                                | 0,73 €
+  2 LDR Photodiode                    |[AliExpress](https://www.aliexpress.com/item/50PCS-LDR-Photo-Light-Sensitive-Resistor-Photoelectric-Photoresistor-5528-GL5528/32668713683.html)                                                | 0,04 €
+  Pinzette                            |[AliExpress](https://www.aliexpress.com/item/1pcs-white-Heat-Resistant-Repair-Tool-Tweezer-for-Mobile-Phone-Tablets-Repair-Tools-Kit/32842853251.html)                                        | 0,86 €
+  RGB-LED gemeinsame Anode            |[AliExpress](https://www.aliexpress.com/item/50Pcs-5mm-4pin-RGB-Tri-Color-Common-Anode-LED-Red-Green-Blue/1852144523.html)                                                                        | 0,05 €
+  Wisent Organizer 3 Plus             |[Bauhaus](https://www.bauhaus.info/kleinteilemagazine-sichtlagerkaesten/wisent-organizer-3-68/p/20319856)                                                                                           | 7,95 €
+  Magnet 10x2mm                       |[Amazon](https://www.amazon.de/dp/B06X977K8L/ref=psdc_340675011_t2_B00PACHAM4)                                                                                                                          | 0,20 €
+  Diverse Widerstände und Kondensatoren |  |
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-  : Teile
