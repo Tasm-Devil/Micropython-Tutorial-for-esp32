@@ -9,16 +9,11 @@ werden. Damit lässt sich die Firmware auf den Mikrocontroller kopieren.
 Man sagt zu diesem Vorgang auch *flashen*. Am einfachsten ist es, du
 führst die drei folgenden Befehle auf jedem Computer aus.
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
+> **Hinweis**
+> Vergiss nicht **MeinBenutzername** durch den Benutzernamen zu ersetzt.
+> Der Benutzername steht übrigens im Terminal vor dem @-Zeichen.
 
-Vergiss nicht **MeinBenutzername** durch den Benutzernamen zu ersetzt.
-Der Benutzername steht übrigens im Terminal vor dem @-Zeichen.
-:::
-
-``` {.sourceCode .console}
+```shell
 $ sudo apt-get install python-pip wget fritzing
 $ sudo pip install mpfshell
 $ sudo pip install esptool
@@ -33,14 +28,10 @@ Mit dem vierten Befehl wird der Benutzer der Gruppe *dialout*
 hinzugefügt. Dadurch erhält der Benutzer die Rechte um auf die serielle
 Schnittstelle des Computers zugreifen zu dürfen.
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
+> **Hinweis**
+> Damit die Änderung des vierten Befehls wirksam wird, muss sich der
+> Benutzer einmal ab- und wieder anmelden.
 
-Damit die Änderung des vierten Befehls wirksam wird, muss sich der
-Benutzer einmal ab- und wieder anmelden.
-:::
 
 Genauso wie ein Arduino benötigt auch ein ESP32-Mikrocontroller eine
 Firmware. Aber anders dieser, wird ein ESP32 nicht von Werk aus mit der
@@ -66,7 +57,7 @@ Terminal in wechsle in den home-Verzeichnis (erster Befehl). Benenne den
 Ordner `Micropython-Tutorial-for-esp32-master` um in `esp32` (zweiter
 Befehl).
 
-``` {.sourceCode .console}
+```console
 $ cd ~
 $ mv Micropython-Tutorial-for-esp32-master esp32
 $ cd esp32/firmware/
@@ -84,16 +75,10 @@ erkannt wird. Wird im Terminal `/dev/ttyUSB0` oder `/dev/ttyUSB1`
 angezeigt, dann ist alles in Ordnung. Führe jetzt die beiden Befehle mit
 `esptool.py` aus, um die Firmware auf das ESP32-Board zu flashen.
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
+> **Achtung**
+> Denke daran, vorher `firmware.bin` durch den Dateinamen der Firmware zu ersetzen.
 
-Achtung! Denke daran, vorher `firmware.bin` durch den Dateinamen der
-Firmware zu ersetzen.
-:::
-
-``` {.sourceCode .console}
+```bash
 $ ls /dev/ttyUSB*
 /dev/ttyUSB0
 $ esptool.py --port /dev/ttyUSB0 erase_flash
@@ -109,6 +94,6 @@ werden. Dazu hast du vorhin das Programm `mpfshell` installiert. Führe
 den folgenden Befehl aus um alle erforderlichen Dateien aus den drei
 Ordnern auf das ESP32-Board zu kopieren.
 
-``` {.sourceCode .console}
+```console
 $ mpfshell -s upload.mpf
 ```

@@ -117,7 +117,7 @@ for x in range(3):
 ```
 
 Wie du das Programm auf den ESP32 kopierst, hängt von deinem
-Betriebssystem ab. Wähle [Windows](Copy_Windows) oder [Linux](Copy_Linux).
+Betriebssystem ab. Wähle [Windows](Copy_Windows.md) oder [Linux](Copy_Linux.md).
 
 Wenn alles geklappt hat, müsste die LED jetzt blinken. Gratulation!
 

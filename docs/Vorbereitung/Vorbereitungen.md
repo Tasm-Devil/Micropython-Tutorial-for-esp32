@@ -16,8 +16,7 @@ und befolge die Anleitung.
 Software installieren
 ---------------------
 
-[Windows Setup](Setup_Windows)
-[Linux Setup](Setup_Linux)
+Wähle das [Windows Setup](Setup_Windows) oder das [Linux Setup](Setup_Linux) je nachdem auf welchem Betriebssystem du arbeiten möchtest.
 
 Wenn alles geklappt hat, bist du von der Software-Seite her jetzt
 bereit um los zu legen. Nimm dir aber noch die Zeit um auch schon die
@@ -35,15 +34,10 @@ kürzen. Jetzt passt die LED super in das Steckbrett.
 
 ![image](../img/RGB_LED.jpg)
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
-Achte unbedingt darauf, dass die Länge der Beinchen vor und nach dem
-Kürzen das gleiche Verhältnis zueinander haben. Das längste Beinchen
-sollte also auch nach dem Kürzen länger als die anderen sein.
-:::
+> **Achtung**
+> Achte unbedingt darauf, dass die Länge der Beinchen vor und nach dem
+> Kürzen das gleiche Verhältnis zueinander haben. Das längste Beinchen
+> sollte also auch nach dem Kürzen länger als die anderen sein.
 
 Die vier Beinchen der Taster musst du mit der Pinzette um 90° verdrehen
 damit sie in das Steckbrett passen. Schau dir am besten die beiden Fotos
