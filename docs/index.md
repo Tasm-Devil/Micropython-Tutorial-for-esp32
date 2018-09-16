@@ -4,7 +4,7 @@ Ein Micropython Tutorial für den esp32-Mikrocontroller
 Vorwort
 -------
 
-> **warning**
+> **Achtung**
 >
 > Dieses Tutorial befindet sich noch im Aufbau und wird zur Zeit von
 > einer Person angelegt. Wenn du Lust hast mit zu machen, kontaktiere

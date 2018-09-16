@@ -19,15 +19,10 @@ für 0 Volt. Auf deinem Steckbrett stehen die roten Linien für Plus
 (3,3V) und die beiden blauen Linien für Minus (0V). Die Farbe Schwarz
 deutet auch manchmal auf den Minus-Anschluss hin.
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
-
-Wenn du einen Blick auf den ESP32 wirfst, wirst du erkennen, dass zwei
-Pins mit dem Aufdruck `GND` beschriftet sind. `GND` steht für *Ground*
-und das heißt im Grunde nichts anderes als Minus.
-:::
+> **Hinweis**
+> Wenn du einen Blick auf den ESP32 wirfst, wirst du erkennen, dass zwei
+> Pins mit dem Aufdruck `GND` beschriftet sind. `GND` steht für *Ground*
+> und das heißt im Grunde nichts anderes als Minus.
 
 ### Grundaufbau
 
@@ -37,7 +32,7 @@ Lass dich von den Farben auf dem Bild nicht irritieren. Du wirst in
 deinem Steckbrücken-Set selten die gewünschte Farbe in der richtigen
 Länge finden. Wähle die Steckbrücke einfach nach der Länge aus.
 
-![image](../img/Grundaufbau_Steckplatine.png)
+![Grundaufbau der Steckplatine](../img/Grundaufbau_Steckplatine.png)
 
 Die beiden Steckbrücken rechts unten verbinden den Plus- und Minus-Pol
 des ESP32 mit dem Steckbrett. 3,3V wird mit der roten Versorgungsleitung
@@ -52,20 +47,15 @@ Steckbrett zu beschädigen. Bei manchen Steckbrettern ist das gar nicht
 so einfach. Wenn du hier nicht vorsichtig bist, kann es passieren, dass
 du später Probleme bekommst. Handle also unbedingt mit Gefühl!
 
-![image](../img/Grundaufbau_mit_LED_Steckplatine.png)
+![Grundaufbau der Steckplatine mit LED und Widerständen](../img/Grundaufbau_mit_LED_Steckplatine.png)
 
 Auf dem zweiten Bild kannst du sehen, wie du die RGB-LED und die drei
 Widerstände mit dem ESP32 verbindest.
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
-Ließ dir unbedingt zu erst den nächsten Abschnitt durch bevor du die
-RGB-LED falsch herum einsetzt! Die Länge der vier Anschlusspins spielt
-nämlich eine wichtige Rolle.
-:::
+> **Achtung**
+> Ließ dir unbedingt zu erst den nächsten Abschnitt durch bevor du die
+> RGB-LED falsch herum einsetzt! Die Länge der vier Anschlusspins spielt
+> nämlich eine wichtige Rolle.
 
 Wissenswertes über LEDs
 -----------------------
@@ -88,7 +78,7 @@ sein.**
 Es gibt auch RGB-LEDs vom Typ *common anode* zu kaufen. Sie haben
 logischerweise einen gemeinsamen Pluspol.
 
-![image](../img/RGB_LED.jpg)
+![Foto einer RGB-LED mit gekürzten Beinchen](../img/RGB_LED.jpg)
 
 Eine zweite Sache sollte man auch immer im Hinterkopf behalten. LEDs
 dürfen niemals ohne einen Vorwiderstand in einen Stromkreis eingebaut
@@ -103,7 +93,7 @@ Das Schaubild zeigt dir welche Funktion(en) die 30 Pins deines
 ESP32-Boards haben. Nimm dir einen Moment Zeit und mache dir klar welche
 fünf Pins du aktuell in deiner Schaltung benutzt.
 
-![image](../img/ESP32-DOIT_Pinout.png)
+![Das Pinout-Diagram](../img/ESP32-DOIT_Pinout.png)
 
 Dein erstes Programm
 --------------------
@@ -111,7 +101,7 @@ Dein erstes Programm
 Hier ist ein kleines Python-Programm, das die LED dreimal rot blinken
 lässt.
 
-``` {.sourceCode .py}
+```python
 from lib.display.led import LED
 from time import sleep_ms
 
@@ -127,10 +117,7 @@ for x in range(3):
 ```
 
 Wie du das Programm auf den ESP32 kopierst, hängt von deinem
-Betriebssystem ab. Wähle Windows oder Linux.
-
-[Windows](Copy_Windows)
-[Linux](Copy_Linux)
+Betriebssystem ab. Wähle [Windows](Copy_Windows) oder [Linux](Copy_Linux).
 
 Wenn alles geklappt hat, müsste die LED jetzt blinken. Gratulation!
 
