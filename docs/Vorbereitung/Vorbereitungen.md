@@ -16,7 +16,7 @@ und befolge die Anleitung.
 Software installieren
 ---------------------
 
-Wähle das [Windows Setup](Setup_Windows) oder das [Linux Setup](Setup_Linux) je nachdem auf welchem Betriebssystem du arbeiten möchtest.
+Wähle das [Windows Setup](Setup_Windows.md) oder das [Linux Setup](Setup_Linux.md) je nachdem auf welchem Betriebssystem du arbeiten möchtest.
 
 Wenn alles geklappt hat, bist du von der Software-Seite her jetzt
 bereit um los zu legen. Nimm dir aber noch die Zeit um auch schon die
