@@ -43,15 +43,10 @@ Wenn alles geklappt hat, sollte im unteren Bereich ein Python-Promt
 Jetzt wählst du noch den Ordner `esp32` als Arbeitsverzeichnis aus indem
 du links im Verzeichnisbaum auf **workSpace** klickst.
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
-
-Achtung! wähle **nicht** den Ordner `Desktop > esp32 > workSpace`
-sondern `Desktop > esp32`. Um eine falsche Wahl rückgängig zu machen,
-klicke in der Menüleiste auf `Tools > InitConfig`
-:::
+> **Hinweis**
+> Achtung! wähle **nicht** den Ordner `Desktop > esp32 > workSpace`
+> sondern `Desktop > esp32`. Um eine falsche Wahl rückgängig zu machen,
+> klicke in der Menüleiste auf `Tools > InitConfig`
 
 ![image](../img/Schritt_3.png)
 
@@ -69,16 +64,11 @@ Zu guter Letzt musst du noch die drei Verzeichnisse `lib`, `test` und
 Ordner muss von Hand angelegt und jede Datei muss einzeln kopiert
 werden.
 
-::: {.warning}
-::: {.admonition-title}
-Warning
-:::
-
-Achtung! Alle `py`-Dateien müssen kopiert werden. Einzige Ausnahme sind
-die `py`-Dateien im Verzeichnis `lib`. Diese Dateien **nicht** kopieren.
-Statt dessen müssen die `mpy`-Dateien kopiert werden. Das sind die
-Treiber für die verschiedenen Module.
-:::
+> **Achtung**
+> Alle `py`-Dateien müssen kopiert werden. Einzige Ausnahme sind
+> die `py`-Dateien im Verzeichnis `lib`. Diese Dateien **nicht** kopieren.
+> Statt dessen müssen die `mpy`-Dateien kopiert werden. Das sind die
+> Treiber für die verschiedenen Module.
 
 Überprüfe ob alles passt, indem du deinen Verzeichnisbaum mit dem
 nächsten Bild vergleichst.

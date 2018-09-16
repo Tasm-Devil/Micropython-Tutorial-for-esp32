@@ -32,7 +32,7 @@ etwas Geschick die Beinchen so wie auf dem Bild zu biegen. Im Anschluss
 kannst du die Beinchen mit einem Seitenschneider auf die halbe Länge
 kürzen. Jetzt passt die LED super in das Steckbrett.
 
-![image](../img/RGB_LED.jpg)
+![Foto einer RGB-LED mit gekürzten Beinchen](../img/RGB_LED.jpg)
 
 > **Achtung**
 > Achte unbedingt darauf, dass die Länge der Beinchen vor und nach dem
@@ -44,12 +44,12 @@ damit sie in das Steckbrett passen. Schau dir am besten die beiden Fotos
 an. Dann weißt du was du machen musst. Alle Taster sollen so wie der
 rechts im Bild aussehen.
 
-![image](../img/Taster1.jpg)
+![Foto eines Kurzhubtasters](../img/Taster1.jpg)
 
 Schau dir auf dem nächsten Bild die Beinchen an. Sie sind genau um 90°
 verdreht.
 
-![image](../img/Taster2.jpg)
+![Noch ein Foto eines Kurzhubtasters](../img/Taster2.jpg)
 
 Fertig? Noch nicht ganz. Einige Sensoren werden mit Stiftleisten
 geliefert. Diese Stifte müssen noch an die Platine gelötet werden. Lass
@@ -64,4 +64,4 @@ anschließend *Bild anzeigen* im Kontextmenü deines Browsers aus. Danach
 öffnet sich ein neuer Tab in deinem Browser. Drucke das Bild aus indem
 du auf deiner Tastatur die Tasten **Strg** und **P** gemeinsam drückst.
 
-![image](../img/ESP32-DOIT_Pinout.png)
+![Das Pinout-Diagram](../img/ESP32-DOIT_Pinout.png)

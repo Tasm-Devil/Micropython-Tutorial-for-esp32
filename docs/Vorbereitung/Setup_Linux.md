@@ -13,7 +13,7 @@ führst die drei folgenden Befehle auf jedem Computer aus.
 > Vergiss nicht **MeinBenutzername** durch den Benutzernamen zu ersetzt.
 > Der Benutzername steht übrigens im Terminal vor dem @-Zeichen.
 
-```shell
+```console
 $ sudo apt-get install python-pip wget fritzing
 $ sudo pip install mpfshell
 $ sudo pip install esptool
@@ -78,7 +78,7 @@ angezeigt, dann ist alles in Ordnung. Führe jetzt die beiden Befehle mit
 > **Achtung**
 > Denke daran, vorher `firmware.bin` durch den Dateinamen der Firmware zu ersetzen.
 
-```bash
+```console
 $ ls /dev/ttyUSB*
 /dev/ttyUSB0
 $ esptool.py --port /dev/ttyUSB0 erase_flash
