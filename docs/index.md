@@ -46,11 +46,10 @@ Tutorial für den Schulunterricht oder das Selbststudium her muss.
 
 Inhaltsverzeichnis
 ----------------
-[Vorbereitung/Vorbereitungen]
-[ErsteSchritte/ErsteSchritte]
-[Ausgabe]
-[Eingabe1]
-[Eingabe2]
-[Internet]
-[Kaufberatung]
-[Lizenz]
+[Vorbereitung](./Vorbereitung/Vorbereitungen)
+[Die Ersten Schritte](./ErsteSchritte/ErsteSchritte)
+[Ausgabe](./Ausgabe)
+[Eingabe Teil 1](./Eingabe1)
+[Eingabe Teil 2](./Eingabe2)
+[Internet](./Internet)
+[Liste der Hardware-Teile](Kaufberatung)
