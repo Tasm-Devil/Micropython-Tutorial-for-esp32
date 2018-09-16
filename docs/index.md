@@ -47,10 +47,8 @@ Tutorial für den Schulunterricht oder das Selbststudium her muss.
 Inhaltsverzeichnis
 ----------------
 
-
-{% site.pages %}
-
-{% include toc.html html=content %}
+* TOC
+{:toc}
 
 1. [Vorbereitung](./Vorbereitung/Vorbereitungen.md)
 2. [Die Ersten Schritte](./ErsteSchritte/ErsteSchritte.md)
