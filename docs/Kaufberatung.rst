@@ -36,14 +36,11 @@ Kaufberatung
      - `AliExpress <https://www.aliexpress.com/item/Rotary-Encoder-Module-Brick-Sensor-Development-Round-Audio-Rotating-Potentiometer-Knob-Cap-for-Arduino/32822717070.html>`_
      - 2,02 €
    * - RFID Modul
-     - `AliExpress <https://www.aliexpress.com/item/1Set-PN532-NFC-RFID-Wireless-Module-V3-User-Kits-Reader-Writer-Mode-IC-S50-Card-PCB/32452824672.html>`_
-     - 3,84 €
+     - `AliExpress <https://www.aliexpress.com/item/Free-Shipping-RFID-module-RC522-Kits-S50-13-56-Mhz-6cm-With-Tags-SPI-Write-Read/32523771442.html>`_
+     - 1,13 €
    * - Gyrosensor ADXL-345
      - `AliExpress <https://www.aliexpress.com/item/GY-291-ADXL345-3-Axis-Digital-Gravity-Sensor-Acceleration-Module-Tilt-Sensor-For-Arduino-Free-Shipping/32279628901.html>`_
      - 0,81 €
-   * - Kombisensor Farbe Entfernung Geste
-     - `AliExpress <https://www.aliexpress.com/item/1-pcs-DIY-Mall-RGB-Gesture-Sensor-APDS-9960-ADPS-9960-for-Arduino-I2C-Interface-3/32757482958.html>`_
-     - 2,17 €
    * - Kombisensor Luftfeuchte Baro Temp
      - `AliExpress <https://www.aliexpress.com/item/High-Accuracy-BME280-Digital-Sensor-Temperature-Humidity-Barometric-Pressure-Sensor-Module-GY-BME280-I2C-SPI-1/32672210336.html>`_
      - 2,75 €
@@ -68,12 +65,12 @@ Kaufberatung
    * - 2 LDR Photodiode
      - `AliExpress <https://www.aliexpress.com/item/50PCS-LDR-Photo-Light-Sensitive-Resistor-Photoelectric-Photoresistor-5528-GL5528/32668713683.html>`_
      - 0,04 €
-   * - Keramik Pinzette
-     - `AliExpress <https://www.aliexpress.com/item/1pc-Anti-acid-Ceramic-Tipped-Stainless-Steel-Tweezer-Fine-Pointed-Tips-with-Heat-Resistance-130x10mm/32852192364.html>`_
-     - 1,19 €
-   * - RGB-LED gemeinsame Anode
-     - `AliExpress <https://www.aliexpress.com/item/50Pcs-5mm-4pin-RGB-Tri-Color-Common-Anode-LED-Red-Green-Blue/1852144523.html>`_
-     - 0,05 €
+   * - Pinzette
+     - `AliExpress <https://www.aliexpress.com/item/1pcs-white-Heat-Resistant-Repair-Tool-Tweezer-for-Mobile-Phone-Tablets-Repair-Tools-Kit/32842853251.html>`_
+     - 0,86 €
+   * - 2 RGB-LED gemeinsame Anode
+     - `AliExpress <https://www.aliexpress.com/item/50pcs-5mm-4pins-RGB-LED-Common-Cathode-Tri-Color-Emitting-Diodes-Diffused/32826209045.html>`_
+     - 0,10 €
    * - Wisent Organizer 3 Plus
      - `Bauhaus <https://www.bauhaus.info/kleinteilemagazine-sichtlagerkaesten/wisent-organizer-3-68/p/20319856>`_
      - 7,95 €

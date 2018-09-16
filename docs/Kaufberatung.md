@@ -23,7 +23,7 @@ Liste der benötigten Teile
   5 Drucktaster                       |[AliExpress](https://www.aliexpress.com/item/Free-shipping-25PCS-Tactile-Push-Button-Switch-Momentary-12-12-7-3MM-Micro-switch-button-25PCS/32803137574.html)                                | 0,73 €
   2 LDR Photodiode                    |[AliExpress](https://www.aliexpress.com/item/50PCS-LDR-Photo-Light-Sensitive-Resistor-Photoelectric-Photoresistor-5528-GL5528/32668713683.html)                                                | 0,04 €
   Pinzette                            |[AliExpress](https://www.aliexpress.com/item/1pcs-white-Heat-Resistant-Repair-Tool-Tweezer-for-Mobile-Phone-Tablets-Repair-Tools-Kit/32842853251.html)                                        | 0,86 €
-  RGB-LED gemeinsame Anode            |[AliExpress](https://www.aliexpress.com/item/50Pcs-5mm-4pin-RGB-Tri-Color-Common-Anode-LED-Red-Green-Blue/1852144523.html)                                                                        | 0,05 €
+  2 RGB-LED gemeinsame Kathode        |[AliExpress](https://www.aliexpress.com/item/50pcs-5mm-4pins-RGB-LED-Common-Cathode-Tri-Color-Emitting-Diodes-Diffused/32826209045.html)                                                        | 0,10 €
   Wisent Organizer 3 Plus             |[Bauhaus](https://www.bauhaus.info/kleinteilemagazine-sichtlagerkaesten/wisent-organizer-3-68/p/20319856)                                                                                           | 7,95 €
   Magnet 10x2mm                       |[Amazon](https://www.amazon.de/dp/B06X977K8L/ref=psdc_340675011_t2_B00PACHAM4)                                                                                                                          | 0,20 €
   Diverse Widerstände und Kondensatoren |  |
