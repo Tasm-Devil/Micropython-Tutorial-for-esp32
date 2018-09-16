@@ -47,6 +47,8 @@ Verbinde den **VCC**-Pin über einen 470 Ohm Widerstand mit Plus (rot), den **GN
 Fotowiderstand (LDR)
 --------------------
 
+Touch
+-----
 
 Digitale Eingabe
 ================
