@@ -42,4 +42,15 @@ Tutorial für den Schulunterricht oder das Selbststudium her muss.
 2.  Software (Firmware, Treiber, Bibliotheken, Tools)
 3.  Dieses Tutorial
 
-![image](img/Teile.jpg)
+![Bild von allen benötigten Hardware-Teilen](img/Teile.jpg)
+
+Inhaltsverzeichnis
+----------------
+[Vorbereitung/Vorbereitungen]
+[ErsteSchritte/ErsteSchritte]
+[Ausgabe]
+[Eingabe1]
+[Eingabe2]
+[Internet]
+[Kaufberatung]
+[Lizenz]
