@@ -8,15 +8,10 @@ gelernt. In diesem Kapitel gehen wir etwas genauer auf die Klasse LED
 ein und lernen im Anschluss, wie man ein Display und einen Summer an den
 ESP32 anschließt.
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
-
-Da sich dieses Tutorial noch im Aufbau befindet, findest du hier nur ein
-paar Beispielprogramme. Experimentiere mit den Programmen, um
-herauszufinden, wie du die Befehle einsetzten kannst.
-:::
+> **Hinweis**
+> Da sich dieses Tutorial noch im Aufbau befindet, findest du hier nur ein
+> paar Beispielprogramme. Experimentiere mit den Programmen, um
+> herauszufinden, wie du die Befehle einsetzten kannst.
 
 Spaß mit LEDs
 -------------
@@ -24,7 +19,7 @@ Spaß mit LEDs
 Die Datei `test/led.py` demonstriert die Möglichkeiten der Klassen `LED`
 und `RGB_LED`
 
-``` {.sourceCode .py}
+```python
 from lib.display.led import LED, RGB_LED
 
 led_red = LED(15)
@@ -46,7 +41,7 @@ led_green.off()
 led_blue.off()
 ```
 
-``` {.sourceCode .py}
+```python
 import test.led
 ```
 
@@ -59,7 +54,7 @@ Verbinde **VCC** mit der roten Versorgungsspannung auf den Steckbrett
 und **GND** mit der blauen. Verbinde **DIN** mit **GPIO23 (SPI MOSI)**,
 **CS** mit **GPIO2** und **CLK** mit **GPIO18 (SPI CLK)**.
 
-``` {.sourceCode .py}
+```python
 from machine import Pin, SPI
 from lib.display.max7219 import Matrix8x8
 from time import sleep_ms
@@ -89,7 +84,7 @@ display.rect(0,0,32,8,1)
 display.show()
 ```
 
-``` {.sourceCode .py}
+```python
 import test.matrix
 ```
 
@@ -100,7 +95,7 @@ import test.matrix
 Das OLED-Display
 ----------------
 
-``` {.sourceCode .py}
+```python
 from machine import I2C, Pin
 from lib.display.ssd1306 import SSD1306_I2C
 from time import sleep_ms
