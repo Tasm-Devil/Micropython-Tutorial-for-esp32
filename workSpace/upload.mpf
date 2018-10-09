@@ -42,13 +42,6 @@ cd test
 lcd test
 mput .*
 
-md apds9960
-cd apds9960
-lcd apds9960
-mput .*
-cd..
-lcd..
-
 cd..
 lcd..
 
